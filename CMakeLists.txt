@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.2)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-project(untitled)
+project(Minesweeper)
 
 ## If you want to link SFML statically
 set(SFML_STATIC_LIBRARIES TRUE)
