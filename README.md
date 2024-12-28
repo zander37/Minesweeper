@@ -7,9 +7,6 @@ A simple **Minesweeper** clone written in C++ using **[SFML](https://www.sfml-de
 - [Requirements](#requirements)
 - [Building and Running](#building-and-running)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -39,3 +36,36 @@ A simple **Minesweeper** clone written in C++ using **[SFML](https://www.sfml-de
    ```bash
    git clone https://github.com/<YOUR_USERNAME>/Minesweeper.git
    cd Minesweeper
+
+2. **Install SFML**
+   If you haven’t already. Make sure SFML is accessible to CMake (for example, via ```SFML_DIR``` or a standard system path).
+
+3. **Generate build files with CMake:**
+
+   ```bash
+   cmake -B build -S .
+
+4. **Build the project:**
+
+   ```bash
+   cmake --build build
+
+5. **Run the game:**
+
+   - On macOS/Linux:
+      ```bash
+      ./build/untitled
+
+   - On Windows
+     ```bash
+     .\build\Debug\untitled.exe
+
+## Usage
+
+- **Left-click** on a tile to reveal it.
+- **Right-click** to place/remove flags.
+- The goal is to reveal all non-mine tiles without triggering a mine.
+   
+
+
+
